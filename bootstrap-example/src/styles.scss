@@ -1,0 +1,10 @@
+@import 'variables.scss';
+@import 'mixins';
+
+body, html {
+  margin: 0;
+  padding: 0
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}

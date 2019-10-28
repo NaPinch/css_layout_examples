@@ -1,0 +1,28 @@
+@import '~src/styles.scss';
+
+:host {
+  display: grid;
+  align-items: start;
+  grid-auto-rows: min-content;
+
+  background-color: $side-background-color;
+  border-right: 3px solid $side-background-shadow;
+
+  overflow: auto;
+
+  ul {
+    display: grid;
+    align-items: start;
+    grid-auto-rows: min-content;
+
+    list-style-type: none;
+    padding-left: 20px;
+
+    li {
+      color: $side-text-color;
+      height: 45px;
+
+    }
+  }
+}
+

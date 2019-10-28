@@ -1,0 +1,12 @@
+@import '~src/styles.scss';
+
+:host {
+  text-align: end;
+
+  background-color: $header-background-color;
+  border-bottom: solid 2px $header-background-shadow;
+
+  color: $header-text-color;
+
+  height: 45px;
+}

@@ -1,0 +1,15 @@
+@import '~src/styles.scss';
+
+
+:host {
+  padding: 10px;
+}
+
+main {
+  height: 100vh;
+  padding: 0;
+  background-color: $main-background-color;
+}
+
+
+

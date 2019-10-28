@@ -1,0 +1,19 @@
+@import '~src/styles.scss';
+
+
+:host {
+  display: grid;
+  grid-gap: 0;
+  grid-template-rows: 45px 1fr;
+  grid-template-columns: $side-nav-width 1fr;
+  height: 100vh;
+
+  padding: 10px;
+}
+
+main {
+  background-color: $main-background-color;
+}
+
+
+

@@ -1,0 +1,12 @@
+@import '~src/styles.scss';
+
+:host {
+  background-color: $logo-background-color;
+  border-right: solid 1px $logo-background-shadow;
+  border-bottom: solid 1px $logo-background-shadow;
+
+  color: burlywood;
+  text-decoration: bold;
+
+  height: 45px;
+}
